@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Renterio</title>
-    <link rel="stylesheet" href="Styles/index.css" />
+    
+    <title>Rinterio</title>
     <!-- daisy ui and tailwind cdn -->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css"
@@ -27,7 +27,7 @@
   </head>
   <body class="font-family">
     <!-- Header section start -->
-    <header class="max-w-7xl mx-auto mt-6 lg:mt-12 px-5 lg:px-12 bg-white">
+    <header class="container mx-auto mt-12 px-4 md:m-8 lg:12">
       <nav class="flex justify-between items-center">
         <div class="flex items-center gap-2">
           <svg
@@ -180,61 +180,10 @@
     </header>
     <!-- main section start -->
     <main>
-      <!-- our service section -->
-      <section class="bg-white mt-12">
-        <div class="text-center pt-6">
-          <h2 class="text-3xl text-[#343532] font-extrabold lg:text-5xl">
-            Our services
-          </h2>
-        </div>
-        <div
-          class="max-w-7xl mx-auto lg:mt-6 px-5 lg:px-12 flex flex-col gap-8 lg:flex-row justify-between md:mt-12 md:px-8 pt-8 pb-8 md:pt-16 md:pb-16"
-        >
-          <div class="flex gap-4 justify-center">
-            <div class="">
-              <img src="./assets/Lighting design icon.png" alt="" />
-            </div>
-            <div class="flex flex-col gap-2">
-              <h4 class="text-xl font-extrabold">Lighting Design</h4>
-              <p class="text-[#494949] font-medium">
-                Achieve the perfect balance of <br />
-                ambient, task, and accent lighting <br />for a functional
-                atmosphere
-              </p>
-            </div>
-          </div>
-          <div class="flex gap-4 justify-center">
-            <div class="">
-              <img src="./assets/Interior design icon.png" alt="" />
-            </div>
-            <div class="flex flex-col gap-2">
-              <h4 class="text-xl font-extrabold">Lighting Design</h4>
-              <p class="text-[#494949] font-medium">
-                Achieve the perfect balance of <br />
-                ambient, task, and accent lighting <br />for a functional
-                atmosphere
-              </p>
-            </div>
-          </div>
-          <div class="flex gap-4 justify-center">
-            <div class="">
-              <img src="./assets/Outdoor design icon.png" alt="" />
-            </div>
-            <div class="flex flex-col gap-2">
-              <h4 class="text-xl font-extrabold">Lighting Design</h4>
-              <p class="text-[#494949] font-medium">
-                Achieve the perfect balance of <br />
-                ambient, task, and accent lighting <br />for a functional
-                atmosphere
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
       <!-- About us section -->
       <section class="bg-[#F4F4F4]">
         <div
-          class="max-w-7xl mx-auto mt-6 lg:mt-12 px-5 lg:px-12 flex flex-col gap-8 lg:flex-row justify-between md:mt-12 md:px-8 pt-12 pb-12 md:pt-16 md:pb-16"
+          class="container mx-auto flex flex-col gap-8 lg:flex-row justify-between mt-8 md:mt-12 px-4 md:px-8 lg:px-12 pt-12 pb-12 md:pt-16 md:pb-16"
         >
           <div class="left flex-1">
             <div class="flex flex-col gap-3 lg:gap-[18px]">
@@ -270,7 +219,7 @@
                 modern sophistication, featuring weathered wood, sleek metal
                 accents.
               </p>
-              <div class="flex flex-col gap-9 lg:gap-5 md:flex-row lg:flex-col">
+              <div class="flex flex-col gap-9 lg:gap-7 md:flex-row lg:flex-col">
                 <div class="flex gap-5 p-6 bg-white items-center rounded-2xl">
                   <img src="./assets/commercial.png" alt="" />
                   <div>
@@ -306,7 +255,7 @@
       <!-- our work section start -->
       <section class="bg-[#F4F4F4]">
         <div
-          class="max-w-7xl mx-auto text-center pt-8 flex flex-col justify-center items-center gap-3 px-4 md:px-8 lg:px-12 pb-8 md:pt-8 md:pb-16"
+          class="container text-center pt-8 flex flex-col justify-center items-center gap-3 px-4 md:px-8 lg:px-12 pb-8 md:pt-16 md:pb-16"
         >
           <div class="flex gap-1 items-center rounded-full py-1 px-3 bg-white">
             <svg
@@ -332,7 +281,7 @@
           </p>
         </div>
         <div
-          class="max-w-7xl mx-auto flex flex-col gap-6 lg:flex-row justify-between px-4 md:px-8 lg:px-12 pb-12"
+          class="container mx-auto flex flex-col gap-6 lg:flex-row justify-between px-4 md:px-8 lg:px-12 pb-12 md:pt-16 md:pb-16"
         >
           <!-- first card -->
           <div class="p-6 bg-[#E7C1D3] rounded-2xl space-y-1">
@@ -344,7 +293,7 @@
             </p>
           </div>
           <!-- second card -->
-          <div class="p-6 bg-[#EFDA6E] rounded-2xl space-y-1">
+          <div class="p-6 bg-[#E7C1D3] rounded-2xl space-y-1">
             <img src="./assets/budget-planning.png" alt="" />
             <h4 class="text-[20px] font-extrabold">Planning</h4>
             <p class="font-medium text-[#494949]">
@@ -353,7 +302,7 @@
             </p>
           </div>
           <!-- third card -->
-          <div class="p-6 bg-[#A4DAC3] rounded-2xl space-y-1">
+          <div class="p-6 bg-[#E7C1D3] rounded-2xl space-y-1">
             <img src="./assets/vision.png" alt="" />
             <h4 class="text-[20px] font-extrabold">Supervision</h4>
             <p class="font-medium text-[#494949]">
@@ -362,7 +311,7 @@
             </p>
           </div>
           <!-- fourth card -->
-          <div class="p-6 bg-[#77AAEA] rounded-2xl space-y-1">
+          <div class="p-6 bg-[#E7C1D3] rounded-2xl space-y-1">
             <img src="./assets/flow-chart.png" alt="" />
             <h4 class="text-[20px] font-extrabold">Design Process</h4>
             <p class="font-medium text-[#494949]">
@@ -372,9 +321,10 @@
           </div>
         </div>
       </section>
-      <section class="bg-container pb-8 lg:pb-24">
+      <!-- lets discuss section -->
+      <section class="bg-container ">
         <div
-          class="max-w-7xl mx-auto text-center pt-8 flex flex-col justify-center items-center gap-3 px-4 md:px-8 lg:px-12 pb-8 md:pt-16 md:pb-16"
+          class="container text-center pt-8 flex flex-col justify-center items-center gap-3 px-4 md:px-8 lg:px-12 pb-8 md:pt-16 md:pb-16"
         >
           <div
             class="flex gap-1 items-center rounded-full py-1 px-3 bg-[#ABEF5F80]"
@@ -402,126 +352,43 @@
           </p>
         </div>
         <!-- input field -->
-        <div class="max-w-7xl mx-auto space-y-3">
-          <div
-            class="flex flex-col space-y-2 lg:flex-row lg:gap-4 lg:space-y-2 items-center justify-center"
-          >
+        <div class="container mx-auto">
+          <div class="flex gap-4 items-center justify-center">
             <input
-              class="w-[89%] lg:w-[30%] rounded-full px-4 py-2"
+              class="px-4 py-2"
               type="text"
               placeholder="First Name"
               name=""
               id=""
             />
             <input
-              class="w-[89%] lg:w-[30%] rounded-full px-4 py-2"
+              class="px-4 py-2"
               type="text"
               name=""
               placeholder="Last Name"
               id=""
             />
           </div>
-          <div
-            class="flex flex-col lg:flex-row lg:gap-4 items-center space-y-3 justify-center lg:space-y-2"
-          >
+          <div class="flex gap-4 items-center justify-center">
             <input
-              class="w-[89%] lg:w-[30%] rounded-full px-4 py-2"
+              class="px-4 py-2"
               type="text"
               name=""
               id=""
               placeholder="Phone Number"
             />
             <input
-              class="w-[89%] lg:w-[30%] rounded-full px-4 py-2"
+              class="px-4 py-2"
               type="email"
               name=""
               id=""
               placeholder="Email Number"
             />
           </div>
-          <textarea
-            class="w-[89%] lg:w-[61%] h-32 lg:h-48 rounded-3xl p-5 flex items-center justify-center mx-auto"
-            name=""
-            placeholder="Write your message here"
-            id=""
-          ></textarea>
-          <div class="text-center">
-            <button
-              class="flex mx-auto w-[89%] lg:w-[61%] justify-center gap-2 items-center bg-[#ABEF5F] text-xl font-extrabold py-2 px-5 rounded-full"
-            >
-              Book Consult
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="size-5 bg-black p-1 rounded-full text-white"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
-                />
-              </svg>
-            </button>
-          </div>
         </div>
       </section>
     </main>
-    <footer class="bg-[#1C1C1C] py-12 lg:py-24">
-      <div class="max-w-7xl mx-auto justify-center flex items-center gap-2">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke-width="1.5"
-          stroke="currentColor"
-          class="size-6 bg-[#ABEF5F] p-1 rounded-full text-black"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
-          />
-        </svg>
-        <p class="text-3xl text-white font-extrabold">Rinterio</p>
-      </div>
-      <p class="text-[#737373] text-center mx-4 mt-4">
-        The barn house captivates with its blend of rustic charm and modern
-        sophistication, <br />
-        featuring weathered wood, sleek metal accents.
-      </p>
-      <div
-        class="flex flex-col lg:flex-row mx-auto justify-center items-center mt-6 gap-10 lg:gap-24"
-      >
-        <p class="font-medium text-[#E9E9E9]">Home</p>
-        <p class="font-medium text-[#E9E9E9]">Services</p>
-        <p class="font-medium text-[#E9E9E9]">Portfolio</p>
-        <p class="font-medium text-[#E9E9E9]">Blogs</p>
-        <p class="font-medium text-[#E9E9E9]">Contact Us</p>
-      </div>
-      <div class="flex justify-center mx-auto mt-8">
-        <button
-          class="flex gap-2 items-center bg-[#ABEF5F] text-xl font-extrabold py-2 px-5 rounded-full"
-        >
-          Book Consult
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="size-5 bg-black p-1 rounded-full text-white"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
-            />
-          </svg>
-        </button>
-      </div>
-    </footer>
+    <!-- footer section start -->
+    <footer></footer>
   </body>
 </html>
